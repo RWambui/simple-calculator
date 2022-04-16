@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(to right, #e3e5e7, #83eeb0);
+}
+
+.container {
+    max-width: 400px;
+    border-radius: 1vw;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+    /* background-color: rgba(0, 0, 0, 0.05) */
+}
+
+
+/* section {
+    padding: 5%;
+} */
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    background-color: rgba(246, 178, 178, 0.75);
+    /* color: rgba(255, 255, 255, 0.05); */
+}
+
+#color {
+    background-color: aquamarine;
+    color: black;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    cursor: pointer;
+    padding: 7%;
+    background-color: transparent;
+    backdrop-filter: blur(0.2vw);
+}
+
+.buttons>div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button {
+    width: 4vw;
+    height: 4vw;
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#equal {
+    background-color: rgb(85, 85, 255);
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(250, 81, 15);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
